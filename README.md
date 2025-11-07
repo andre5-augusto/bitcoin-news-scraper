@@ -4,7 +4,7 @@ Projeto Java usando Selenium para coletar manchetes de notícias sobre Bitcoin, 
 
 ## Como rodar com Docker
 
-```
+```sh
 git clone https://github.com/andre5-augusto/bitcoin-news-scraper.git
 cd bitcoin-news-scraper
 docker-compose up --build
@@ -17,7 +17,7 @@ docker-compose up --build
 
 Execute os testes com Maven:
 
-```
+```sh
 ./mvnw test
 ```
 
